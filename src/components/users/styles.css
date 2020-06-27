@@ -1,0 +1,39 @@
+.paperContainer {
+  padding: 24px;
+  width: 500px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+}
+
+.brightBackground {
+  background-color: cornsilk;
+}
+
+.darkBackground {
+  background-color: darkred;
+}
+
+.darkTitleColor {
+  color: #523c00;
+}
+
+.darkTextColor {
+  color: #c47600;
+}
+
+.brightTitleColor {
+  color: #ffefc4;
+}
+
+.brightTextColor {
+  color: #ffdec2;
+}
+
+.content {
+  font-size: 25px;
+  font-weight: bold;
+  /* color: red; */
+}
