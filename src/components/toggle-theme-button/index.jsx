@@ -1,6 +1,10 @@
 import React, { useContext } from 'react'
 
-import { FormControlLabel, Switch } from '@material-ui/core'
+import {
+  FormControlLabel,
+  Typography,
+  Switch,
+} from '@material-ui/core'
 
 import { ThemeColorContext } from '../../configs/contexts.config'
 
@@ -13,7 +17,7 @@ export const ToggleThemeButton = () => {
     <>
       <FormControlLabel
         control={<Switch checked={isDark} onChange={handleThemeChange} name="checkedA" />}
-        label="Dark Mode"
+        label={(<Typography color="primary">Dark Mode</Typography>)}
       />
     </>
   )

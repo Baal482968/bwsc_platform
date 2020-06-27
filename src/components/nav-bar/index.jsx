@@ -32,7 +32,9 @@ const useStyles = makeStyles(theme => {
       flexGrow: 1,
     },
     settingMenu: {
-      backgroundColor: sideBackgroundColor,
+      '& .MuiMenu-paper': {
+        backgroundColor: sideBackgroundColor,
+      },
     },
   })
 })
@@ -88,8 +90,16 @@ export const NavBar = () => {
             getContentAnchorEl={null}
           >
             <MenuItem><ToggleThemeButton /></MenuItem>
-            <MenuItem onClick={handleClose}>My account</MenuItem>
-            <MenuItem onClick={handleClose}>Logout</MenuItem>
+            <MenuItem onClick={handleClose}>
+              <Typography color="primary">
+                My account
+              </Typography>
+            </MenuItem>
+            <MenuItem onClick={handleClose}>
+              <Typography color="primary">
+                Logout
+              </Typography>
+            </MenuItem>
           </Menu>
         </Toolbar>
       </AppBar>
