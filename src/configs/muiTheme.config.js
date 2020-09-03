@@ -1,27 +1,20 @@
 import { createMuiTheme } from '@material-ui/core/styles'
 
 const fontFamily = [
+  'Helvetica Neue',
   'Arial',
   'Helvetica',
   'sans-serif',
 ].join(',')
 
 const brightColor = {
-  primaryColor: '#c47600',
-  secondaryColor: '#9c2400',
-  contentBackgroundColor: 'white',
-  sideBackgroundColor: '#f2f2f2',
-  navBackgroundColor: '#ffecc4',
-  navDrawerBackgroundColor: '#fdffd4',
+  primaryColor: '#000000',
+  navBackgroundColor: '#FFFFFF',
 }
 
 const darkColor = {
   primaryColor: '#ffdec2',
-  secondaryColor: '#e9ffb3',
-  contentBackgroundColor: '#696969',
-  sideBackgroundColor: '#292929',
   navBackgroundColor: '#4d1900',
-  navDrawerBackgroundColor: '#4a3b0f',
 }
 
 const sharedTheme = {
@@ -39,12 +32,6 @@ const brightTheme = {
       dark: '#5e3a00',
       contrastText: '#fffce6',
     },
-    secondary: {
-      light: '#f0a089',
-      main: brightColor.secondaryColor,
-      dark: '#4a1100',
-      contrastText: '#ffe6f1',
-    },
   },
   ...sharedTheme,
 }
@@ -57,12 +44,6 @@ const darkTheme = {
       main: darkColor.primaryColor,
       dark: '#ededed',
       contrastText: '#3b0d0d',
-    },
-    secondary: {
-      light: '#dcfa91',
-      main: darkColor.secondaryColor,
-      dark: '#f3f7e9',
-      contrastText: '#3b3a0d',
     },
   },
   ...sharedTheme,
