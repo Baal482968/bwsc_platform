@@ -29,9 +29,9 @@ const useStyles = makeStyles(theme => ({
   },
   contentSection: {
     backgroundColor: theme.color.contentBackgroundColor,
-    minHeight: 'calc(100vh - 64px)',
+    minHeight: 'calc(100vh - 80px)',
     paddingTop: theme.spacing(2),
-  }
+  },
 }))
 
 const App = () => {
