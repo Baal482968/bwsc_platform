@@ -2,6 +2,7 @@ import React from 'react'
 import RoomIcon from '@material-ui/icons/Room'
 import FacebookIcon from '@material-ui/icons/Facebook'
 import InstagramIcon from '@material-ui/icons/Instagram'
+import DriveEtaIcon from '@material-ui/icons/DriveEta'
 
 export const Footer = () => (
   <div className="w-screen h-40 bg-yellow-900 flex items-center justify-between px-20">
@@ -11,6 +12,7 @@ export const Footer = () => (
     </div>
     <div className="flex">
       <RoomIcon className="w-10 h-10 text-white mx-2" />
+      <DriveEtaIcon className="w-10 h-10 text-white mx-2" />
       <FacebookIcon className="w-10 h-10 text-white mx-2" />
       <InstagramIcon className="w-10 h-10 text-white mx-2" />
     </div>

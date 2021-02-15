@@ -9,8 +9,12 @@ module.exports = {
       height: {
         navbar: NAVBAR_HEIGHT,
         content: `calc(100vh - ${NAVBAR_HEIGHT})`,
-        slogan: '45rem',
+        'slogan-section': '60rem',
+        'shopping-section': '20rem',
       },
+      backgroundImage: () => ({
+        'shopping-background': "url('assets/shopping-background.jpg')",
+      }),
     },
   },
   variants: {
