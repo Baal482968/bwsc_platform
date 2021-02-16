@@ -6,11 +6,19 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      inset: {
+        '1/5': '20%',
+        '1/6': '16.67%',
+        '1/7': '14.28%',
+        '1/8': '12.5%',
+        '1/9': '11.11%',
+        '1/10': '10%',
+      },
       height: {
         navbar: NAVBAR_HEIGHT,
         content: `calc(100vh - ${NAVBAR_HEIGHT})`,
         'slogan-section': '60rem',
-        'shopping-section': '20rem',
+        'shopping-section': '40rem',
       },
       backgroundImage: () => ({
         'shopping-background': "url('assets/shopping-background.jpg')",
