@@ -1,10 +1,11 @@
 import React from 'react'
 import { Navbar } from './components/nav-bar'
+import { Content } from './components/content'
 
 const App = () => (
-  <div>
+  <div className="w-screen h-screen overflow-x-hidden">
     <Navbar />
-    <div>123</div>
+    <Content />
   </div>
 )
 
