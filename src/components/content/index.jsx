@@ -33,21 +33,16 @@ export const Content = () => (
       <MenuCard cardTitle="手工糕點" imageAlt="cakes" imageSrc={CakeImage} />
     </div>
     {/* about us section */}
-    <div className="text-center py-12 px-36">
+    <div className="py-12 px-36">
       <Divider />
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-      do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-      ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+      <div className="my-1 text-xl">
+        &nbsp;&nbsp;&nbsp;&nbsp;位於四周環山的南投埔里小鎮，優質的地理環境孕育出鉅鹿莊園，有老闆及父母親一起田間管理及種植咖啡樹，皆由人工精選咖啡豆、乾燥、保存、烘培，而由來的鉅鹿莊園咖啡豆，為了讓更多饕客認識鉅鹿莊園，故成立
+        Julu Cafe。
+      </div>
+      <div className="my-1 text-xl">
+        &nbsp;&nbsp;&nbsp;&nbsp;Julu Cafe
+        給您帶著家的感覺，隨性玩咖啡，分享及交流在家栽種的咖啡豆及世界知名莊園咖啡豆，並提供手工烘培點心。
+      </div>
     </div>
     <Shopping />
     <Footer />
