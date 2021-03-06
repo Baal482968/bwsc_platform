@@ -8,7 +8,7 @@ import { Slogan } from './components/slogan'
 import { Shopping } from './components/shopping'
 
 export const Content = () => (
-  <div className="h-content overflow-y-scroll">
+  <div className="h-content-mobile sm:h-content overflow-y-scroll">
     <Route path="/" exact>
       <Banner />
       <MenuLink />
@@ -16,6 +16,5 @@ export const Content = () => (
       <Shopping />
       <Footer />
     </Route>
-    <Route path="/menu">123</Route>
   </div>
 )
