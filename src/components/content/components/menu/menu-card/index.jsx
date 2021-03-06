@@ -6,22 +6,24 @@ export const MenuCard = ({ cardTitle, imageSrc, imageAlt }) => {
   const [isHover, setisHover] = useState(false)
   return (
     <div
-      className="relative w-1/4 mx-4 h-80"
+      className="relative h-80 w-full sm:w-1/2 lg:w-1/4 mx-4 my-2 sm:my-0"
       onMouseEnter={() => setisHover(true)}
       onMouseLeave={() => setisHover(false)}
     >
       <img
-        className="absolute h-full w-full object-cover"
+        className="absolute h-full w-full object-cover px-4 sm:px-0 box-border"
         src={imageSrc}
         alt={imageAlt}
       />
       {isHover && (
-        <Box
-          className="absolute flex items-center justify-center text-white text-xl h-full w-full bg-gray-600 bg-opacity-50 cursor-pointer"
-          onClick={() => console.log('click')}
-        >
-          {cardTitle}
-        </Box>
+        <div className="absolute h-full w-full px-4 sm:px-0 box-border">
+          <Box
+            className="h-full w-full flex items-center justify-center text-white text-xl  bg-gray-600 bg-opacity-50 cursor-pointer"
+            onClick={() => console.log('click')}
+          >
+            {cardTitle}
+          </Box>
+        </div>
       )}
     </div>
   )
