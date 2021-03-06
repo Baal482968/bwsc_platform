@@ -3,7 +3,7 @@ import { MenuCard } from './menu-card'
 import PouroverImage from './assets/pourover.jpg'
 import CakeImage from './assets/cake.jpg'
 
-export const Menu = () => (
+export const MenuLink = () => (
   <>
     <div className="mt-8 sm:mt-12 lg:mt-24 mb-0 text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center underline">
       Menu
