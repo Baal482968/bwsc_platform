@@ -19,6 +19,7 @@ module.exports = {
         content: `calc(100vh - ${NAVBAR_HEIGHT})`,
         'slogan-section': '60rem',
         'shopping-section': '40rem',
+        'menu-link': '40rem',
       },
       backgroundImage: () => ({
         'shopping-background': "url('assets/shopping-background.jpg')",
