@@ -18,11 +18,10 @@ module.exports = {
         navbar: NAVBAR_HEIGHT,
         content: `calc(100vh - ${NAVBAR_HEIGHT})`,
         'slogan-section': '60rem',
+        'slogan-section-mobile': '30rem',
         'shopping-section': '40rem',
+        'shopping-section-mobile': '20rem',
       },
-      backgroundImage: () => ({
-        'shopping-background': "url('assets/shopping-background.jpg')",
-      }),
     },
   },
   variants: {
