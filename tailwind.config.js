@@ -1,4 +1,5 @@
-const NAVBAR_HEIGHT = '7rem'
+const NAVBAR_HEIGHT = '6rem'
+const NAVBAR_HEIGHT_MOBILE = '4rem'
 
 module.exports = {
   important: true,
@@ -13,20 +14,27 @@ module.exports = {
         '1/8': '12.5%',
         '1/9': '11.11%',
         '1/10': '10%',
+        '1/20': '5%',
       },
       height: {
         navbar: NAVBAR_HEIGHT,
+        'navbar-mobile': NAVBAR_HEIGHT_MOBILE,
         content: `calc(100vh - ${NAVBAR_HEIGHT})`,
+        'content-mobile': `calc(100vh - ${NAVBAR_HEIGHT_MOBILE})`,
         'slogan-section': '60rem',
+        'slogan-section-mobile': '30rem',
         'shopping-section': '40rem',
+        'menu-link': '40rem',
+        'mobile-menu-link': '30rem',
+        'shopping-section-mobile': '20rem',
       },
-      backgroundImage: () => ({
-        'shopping-background': "url('assets/shopping-background.jpg')",
-      }),
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundImage: ['hover'],
+      textAlign: ['hover'],
+    },
   },
   plugins: [],
 }
