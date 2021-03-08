@@ -24,12 +24,17 @@ module.exports = {
         'slogan-section': '60rem',
         'slogan-section-mobile': '30rem',
         'shopping-section': '40rem',
+        'menu-link': '40rem',
+        'mobile-menu-link': '30rem',
         'shopping-section-mobile': '20rem',
       },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundImage: ['hover'],
+      textAlign: ['hover'],
+    },
   },
   plugins: [],
 }
