@@ -20,6 +20,7 @@ module.exports = {
         'slogan-section': '60rem',
         'shopping-section': '40rem',
         'menu-link': '40rem',
+        'mobile-menu-link': '30rem',
       },
       backgroundImage: () => ({
         'shopping-background': "url('assets/shopping-background.jpg')",
@@ -27,7 +28,10 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundImage: ['hover'],
+      textAlign: ['hover'],
+    },
   },
   plugins: [],
 }
