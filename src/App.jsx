@@ -16,8 +16,10 @@ const App = () => {
   }, [])
   return (
     <BrowserRouter>
-      <div ref={navbarRef} className="w-screen h-screen overflow-x-hidden">
-        <Navbar />
+      <div className="w-screen h-screen overflow-x-hidden">
+        <div ref={navbarRef}>
+          <Navbar />
+        </div>
         <Content />
       </div>
     </BrowserRouter>
