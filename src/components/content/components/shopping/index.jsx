@@ -14,6 +14,7 @@ export const Shopping = () => {
   }
   return (
     <div
+      id="shopping"
       className="relative w-screen h-shopping-section-mobile sm:h-shopping-section"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}

@@ -11,8 +11,8 @@ export const Content = () => (
   <div className="h-content-mobile sm:h-content overflow-y-scroll">
     <Route path="/" exact>
       <Banner />
-      <MenuLink />
       <Slogan />
+      <MenuLink />
       <Shopping />
       <Footer />
     </Route>
