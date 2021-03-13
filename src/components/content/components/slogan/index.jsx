@@ -8,8 +8,9 @@ export const Slogan = () => (
       <div>位於四周環山的南投埔里小鎮</div>
       <div>優質的地理環境孕育出鉅鹿莊園</div>
       <div>老闆一家人田間管理及種植咖啡樹</div>
-      <div>人工精選咖啡豆、乾燥、保存、烘培的鉅鹿莊園咖啡豆</div>
-      <div>為了讓更多饕客認識鉅鹿莊園，故成立 Julu Cafe。</div>
+      <div>人工精選、乾燥、保存、烘培的鉅鹿莊園豆</div>
+      <div>為了讓更多饕客認識鉅鹿莊園</div>
+      <div>故成立 Julu Cafe</div>
     </div>
   </div>
 )
