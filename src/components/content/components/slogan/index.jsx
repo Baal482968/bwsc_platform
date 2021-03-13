@@ -2,7 +2,7 @@ import React from 'react'
 import { Divider } from '../divider'
 
 export const Slogan = () => (
-  <div className="mb-12 sm:py-8 lg:py-12 px-2 sm:px-12 lg:px-36" id="about-us">
+  <div className="sm:py-8 lg:py-12 px-2 sm:px-12 lg:px-36" id="about-us">
     <Divider />
     <div className="my-1 text-lg lg:text-3xl text-center tracking-widest">
       <div>位於四周環山的南投埔里小鎮</div>
