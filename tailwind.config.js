@@ -16,11 +16,11 @@ module.exports = {
         '1/10': '10%',
         '1/20': '5%',
       },
-      height: {
+      spacing: {
         navbar: NAVBAR_HEIGHT,
         'navbar-mobile': NAVBAR_HEIGHT_MOBILE,
-        content: `calc(100vh - ${NAVBAR_HEIGHT})`,
-        'content-mobile': `calc(100vh - ${NAVBAR_HEIGHT_MOBILE})`,
+      },
+      height: {
         'slogan-section': '60rem',
         'slogan-section-mobile': '30rem',
         'shopping-section': '40rem',

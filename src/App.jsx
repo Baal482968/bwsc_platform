@@ -6,7 +6,7 @@ import { Content } from './components/content'
 
 const App = () => (
   <BrowserRouter>
-    <div className="w-screen h-screen overflow-x-hidden">
+    <div className="w-screen h-screen overflow-x-hidden overflow-y-scroll">
       <Navbar />
       <Content />
     </div>

@@ -8,7 +8,7 @@ import { Slogan } from './components/slogan'
 import { Shopping } from './components/shopping'
 
 export const Content = () => (
-  <div className="h-content-mobile sm:h-content overflow-y-scroll">
+  <div className="mt-navbar-mobile sm:mt-navbar overflow-y-scroll">
     <Route path="/" exact>
       <Banner />
       <MenuLink />
